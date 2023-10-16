@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/background"
+    android:background="@color/purple"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/weight"
+        android:textSize="21sp"
+        android:id="@+id/weight"
+        android:textStyle="bold"
+        ></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/feet"
+        android:textSize="21sp"
+        android:id="@+id/heightft"
+        android:textStyle="bold"
+        ></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/inch"
+        android:textSize="21sp"
+        android:id="@+id/heightinch"
+        android:textStyle="bold"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="enter"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:id="@+id/btn"
+        android:backgroundTint="#51A19A"
+        ></Button>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="21sp"
+        android:text="Result"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
